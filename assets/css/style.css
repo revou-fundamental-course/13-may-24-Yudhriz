@@ -1,0 +1,143 @@
+/* Small Screen */
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.text__center {
+  text-align: center;
+}
+
+.text__left {
+  text-align: left;
+}
+
+.text__heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.text__paragraf {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.text__blue {
+  color: #3498db;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.button__select__rumus {
+  background-color: #3498db;
+  color: white;
+  font-size: 0.8rem;
+  padding: 1px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button__select__rumus:hover {
+  background-color: #2980b9;
+}
+
+.choose__rumus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose__rumus .button__select__rumus {
+  flex: 1;
+  margin: 0;
+}
+
+.choose__rumus .button__select__rumus + .button__select__rumus {
+  border-left: 1px solid white;
+}
+
+.img__container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.img__segitiga {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #img__keliling {
+    display: none;
+  }
+
+  #form__keliling {
+    display: none;
+  }
+
+    #img__luas,
+    #img__keliling {
+      display: none;
+    }
+}
+
+.form__container {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 0.3rem;
+}
+
+.form__input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #2f4f4f;
+  border-radius: 4px;
+}
+
+.form__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #0056b3;
+}
+
+.form__button__reset {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__button__reset:hover {
+  background-color: #bd2130;
+}
+
+.hasil__hitung__segitiga {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #2f4f4f;
+  border-radius: 4px;
+  background-color: orange;
+}
