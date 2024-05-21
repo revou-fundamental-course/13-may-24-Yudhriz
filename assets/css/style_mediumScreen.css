@@ -1,0 +1,64 @@
+/* Medium Screen */
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .text__heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .text__paragraf {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .text__blue {
+    font-size: 1rem;
+  }
+
+  .button__select__rumus {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .choose__rumus {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .choose__rumus .button__select__rumus {
+    flex: 1;
+    margin: 0;
+  }
+
+  .choose__rumus .button__select__rumus + .button__select__rumus {
+    border-left: 1px solid white;
+  }
+
+  .img__container {
+    width: 100%;
+    display: flex;
+    flex-direction: space-between;
+  }
+
+  .img__container img {
+    display: block !important;
+  }
+
+  .img__segitiga {
+    width: 50%;
+  }
+
+  .img__segitiga + .img__segitiga {
+    border-left: 1px solid white;
+  }
+
+  #form__keliling {
+    display: none;
+  }
+}
